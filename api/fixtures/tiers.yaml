@@ -1,0 +1,26 @@
+- model: api.tier
+  pk: 1
+  fields:
+    name: Basic
+    sizes:
+      - 200
+    store_original: false
+    can_set_expire: false
+- model: api.tier
+  pk: 2
+  fields:
+    name: Premium
+    sizes:
+      - 200
+      - 400
+    store_original: true
+    can_set_expire: false
+- model: api.tier
+  pk: 3
+  fields:
+    name: Enterprise
+    sizes:
+    - 200
+    - 400
+    store_original: true
+    can_set_expire: true
